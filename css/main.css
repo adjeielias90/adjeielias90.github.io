@@ -330,4 +330,14 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   .item {
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .stack-icons{
+      margin-left: 30%;
+   }
+}
+
+.stack-icons{
+    margin-left: 30%;
+}
+
+
