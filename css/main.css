@@ -279,7 +279,12 @@ main {
   .projects {
     grid-template-columns: repeat(4, 1fr); }
   .bio-text {
-    width: 65%; } }
+    width: 65%; }
+.stack-icons{
+    margin-left: 30%;
+}
+
+}
 
 @media screen and (min-wdith: 769px) and (max-width: 1170px) {
   .projects {
@@ -331,13 +336,8 @@ main {
     grid-template-columns: 1fr; }
   .item {
     margin-bottom: 35px; }
-  .stack-icons{
-      margin-left: 0;
-   }
 }
 
-.stack-icons{
-    margin-left: 30%;
-}
+
 
 
