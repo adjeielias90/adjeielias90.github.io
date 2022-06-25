@@ -272,7 +272,7 @@ main {
   transition: all 1s ease-out;
   background: #fff;
   color: #001f3f;
-  scale: (1.5);
+  scale: (2);
 }
 
 @media screen and (min-width: 1171px) {
