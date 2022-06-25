@@ -6,14 +6,14 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.5 ease-out;
+  transition: all 1 ease-out;
   display: block; }
   .menu-button .button-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
     background: #fff;
-    transition: all 0.5 ease-out; }
+    transition: all 1 ease-out; }
   .menu-button.close {
     transition: transform 0.3s;
     transform: rotate(180deg); }
@@ -47,14 +47,14 @@
     list-style: none;
     transition: transform 0.3s;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5 ease-out; }
+    transition: all 1 ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: rgba(0, 31, 63, 0.7);
     transition: transform 0.3s;
     transform: translate3d(0, 100%, 0);
-    transition: all 0.5 ease-out; }
+    transition: all 1 ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .potrait {
@@ -68,7 +68,7 @@
   .menu .nav-item {
     transition: transform 0.3s;
     transform: translate3d(600px, 0, 0);
-    transition: all 0.5 ease-out; }
+    transition: all 1 ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
@@ -82,7 +82,7 @@
     font-weight: 300;
     color: #fff;
     text-decoration: none;
-    transition: all 0.5 ease-out; }
+    transition: all 1 ease-out; }
     .menu .nav-link:hover {
       color: #001f3f; }
 
@@ -139,7 +139,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(43, 109, 117, 0.5); }
+    background: rgba(43, 109, 117, 1); }
 
 a {
   color: #fff;
@@ -163,7 +163,7 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #001f3f;
-        transition: all 0.5 ease-out; }
+        transition: all 1 ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -198,7 +198,7 @@ main {
     grid-area: job6; }
   .about-info .job {
     background: #2f7781;
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: #001f3f 5px solid; }
 
 .projects {
@@ -223,10 +223,10 @@ main {
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     max-width: 100%;
-    transition: all 0.5 ease-out; }
+    transition: all 1 ease-out; }
     .boxes div:hover {
-      transition: all 0.5s;
-      transition: all 0.5 ease-out;
+      transition: all 1s;
+      transition: all 1 ease-out;
       padding: 1rem 2rem;
       background: #001f3f;
       color: #fff; }
@@ -235,7 +235,7 @@ main {
 
 .btn, .btn-dark, .btn-light {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
   .btn.hover, .hover.btn-dark, .hover.btn-light {
@@ -269,7 +269,7 @@ main {
 }
 
 .standard-btn:hover{
-  transition: all 0.5s ease-out;
+  transition: all 1s ease-out;
   background: #fff;
   color: #001f3f;
   scale: (1.5);
