@@ -1,0 +1,10 @@
+preventDefault in the different handlers is to prevent the default behaviour of an event, cancelling it.
+For example to perform validations before submitting a form.
+
+
+
+A jQuery plugin is simply a new method that we use to extend jQuery's prototype object.
+By extending the prototype object we can enable all jQuery objects to inherit any methods that is added
+On line 35 in tasksController.js:
+	var task = $('form').toObject();
+this method comes from the serializable-jquery where it's defined.
