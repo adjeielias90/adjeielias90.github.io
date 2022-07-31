@@ -35,6 +35,21 @@ tasksController = function () {
 						var task = $('form').toObject();
 						$('#taskRow').tmpl(task).appendTo($('#tblTasks tbody'));
 					});
+
+					// Creates new Object when the [Print Object] button is pressed and outputs to console
+					$(taskPage).find('#btnPrintObject').click(function(evt) {
+						evt.preventDefault();
+						var task = $('form').toObject();
+						console.log(JSON.stringify(task))
+					});
+
+					// Creates new Object and populates the form when the [Print Object] button is pressed
+					$(taskPage).find('#btnLoadConsole').click(function(evt) {
+						evt.preventDefault();
+						var task = $('form').toObject();
+						$('form').fromObject(task);
+						$('#taskRow').tmpl(task).appendTo($('#tblTasks tbody'));
+					});
 					initialized=true;
 				}
 			}
